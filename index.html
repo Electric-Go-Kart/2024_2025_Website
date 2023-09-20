@@ -14,6 +14,34 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.team-member-image {
+				width: 400px;
+				height: 400px;
+				object-fit: cover;
+				max-width: 100%;
+			}
+		</style>
+		<style>
+			.timeline-controls {
+				display: flex;
+				justify-content: center;
+				gap: 10px; /* spacing between buttons */
+				margin-bottom: 20px;
+			}
+	
+			.timeline-controls button {
+				padding: 1px 20px;
+				border: none;
+				background-color: #f7f7f7;
+				cursor: pointer;
+				transition: background-color 0.3s ease;
+			}
+	
+			.timeline-controls button:hover {
+				background-color: #e0e0e0;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -55,43 +83,47 @@
 										<header class="major">
 											<h2>Abstract</h2>
 										</header>
-										<p>The purpose of our project is to continue the development of the previous year's Electric Go-Kart. 
-											Our project is closely connected with the ECE Outreach Team, with the main purpose of the 
-											go-kart being educating students about engineering concepts.
+										<p>We are a team of electrical, computer, and mechanical engineers who are using modern technologies to 
+											showcase high levels of applied fundamental problem solving to prospective students. The highly 
+											technical Ekart demonstrates the seamless integration of various core concepts from each of the 
+											engineering departments. The electrical engineers incorporate their skills of wiring and coding 
+											to the cart through the addition of electric powered motors that are controlled using python. 
+											The computer engineers bring new and improved topics like integrating machine learning with 
+											autonomous pedestrian recognition. The computer engineers and electrical engineers work closely 
+											together to ensure successful communication between the computer and the components of the cart. 
+											The mechanicals bring their experience of design and machining to create a stable body to house 
+											the electrical and computer components. Mechanicals also assemble the cart to improve the overall 
+											functionality and aesthetic of the electric cart. Together, all of the engineering concentrations 
+											work together to ensure the safety of both the cart and the rider. With no specific instruction as 
+											to what needs to be completed on the cart the team plans on increasing the safety and fun factors with the
+											 hope of encouraging future generations to get excited about engineering. 
 											<br
-											>Our core goals this year are focused on increasing the dimensions of electrical and 
-											computer engineering covered in the kart. By redesigning our controls platform to enable 
-											more sensors and compute power, we plan to offer a wealth of ECE application demos for 
-											student enjoyment.
+											
 										</p>
 
 										<header class="major">
-											<h2>Background</h2>
+											<h2>Importance</h2>
 										</header>
-										<p>Last year's team presented us with a fully-functional electric go-kart. The kart features 
-											a battery system with two electric motors, a custom chassis, and an embedded controls 
-											system for data readout. Feel free to check out current pictures of the kart and it's 
-											progress on the pictures page.
+										<p>This is an ECE Outreach project meant to showcase some of the capabilities of engineering to potential future 
+											students. The E-kart contains various examples of how different engineering fields come together in 
+											order to create a functioning machine. Seeing how these different expertises are implemented together may inspire 
+											or spark interest in those who are considering engineering as a career path. This project has the capability of 
+											catching the eye of people from elementary school up to high school and beyond. 
+
 										</p>
 
 										<header class="major">
 											<h2>Design Goals</h2>
 										</header>
 										<ul>
-											<li style="list-style-type: '✔'">Redesign the power system to better protect the components from damage</li>
-											<li style="list-style-type: '✔'">Design and manufacture a new chassis that improves upon the current</li>
-											<li style="list-style-type: '✔'">Integrate the identification system to the rest of the kart to achieve autonomous functions</li>
-											<li style="list-style-type: '✔'">Improve the ESC with better programing and safety features to increase the maximum speed of the GoKart</li>
+											<li style="list-style-type: '✔'">Impliment the battery managment system to charge all batteries</li>
+											<li style="list-style-type: '✔'">Adding UI features, GPS, LiDAR through raspberry pi</li>
+											<li style="list-style-type: '✔'">Create new circuit designs for all components</li>
+											<li style="list-style-type: '✔'">Redo mechanical issues such as breaks, steering</li>
+											<li style="list-style-type: '✔'">Build a shell around the vehicle</li>
 										</ul>
 
-										<header class="major">
-											<h2>Project Constraints</h2>
-										</header>
-										<ul>
-											<li>While new chassis is being developed, all systems must be tested on old chassis</li>
-											<li>Current chassis lacks various safety precautious that require the team to account for before or during improvements</li>
-											<li>The time elapsed since the previous team's departure has left many firmwares and programs out of date and will require updating</li>
-										</ul>
+										
 
 									</div>
 									<!-- <span class="image"><img src="images/group-photo.jpg" alt="" /></span> -->
@@ -109,8 +141,7 @@
 								</header>
 								<ul class="features">
 									<li>
-									<li>
-										<center><span class="image"><img src="./images/Spencer.jpg" style="max-width: 80%;" alt="" /></span></center>
+										<center><span class="image"><img src="./images/Spencer.jpg" class="team-member-image" alt="" /></span></center>
 										<h3>Spencer Beer - <a href="https://www.linkedin.com/in/spencerbeer/" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
 										<p>Spencer Beer is a Computer Engineering Student graduating in May of 2024. With a passion for continuous learning and 
 											a desire to contribute to cutting-edge technologies in the fields of embedded systems, machine learning, and autonomy, 
@@ -120,7 +151,7 @@
 										</p>
 									</li>
 									<li>
-										<center><span class="image"><img src="./images/Christian_3 (1).JPG" style="max-width: 80%;" alt="" /></span></center>
+										<center><span class="image"><img src="./images/Christian_3 (1).JPG" class="team-member-image" alt="" /></span></center>
 										<h3>Christian Castillo - <a href="https://www.linkedin.com/in/christian-castillo-7904691a0/" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
 										<p>Christian Castillo, a Computer Engineering student set to graduate in December 2023, harbors a profound interest
 											in Raspberry Pi technologies and machine learning algorithms. Consequently, he has elected to participate in this 
@@ -130,7 +161,7 @@
 										</p>
 									</li>
 									<li>
-										<center><span class="image"><img src="./images/Tommy.jpg" style="max-width: 80%;" alt="" /></span></center>
+										<center><span class="image"><img src="./images/Tommy.jpg" class="team-member-image" alt="" /></span></center>
 										<h3>Thomas Balzer - <a href="https://www.linkedin.com/in/thomasbalzer16/" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
 										<p>Thomas Balzer is an Electrical Engineering w/ aerospace concentration graduating May of 2024. He will be working
 											with the Ekart battery management system, wiring harnesses, and reverse engineering CAN data to enable more 
@@ -138,7 +169,7 @@
 										</p>
 									</li>
 									<li>
-										<center><span class="image"><img src="./images/Jeremy.jpg" style="max-width: 80%;" alt="" /></span></center>
+										<center><span class="image"><img src="./images/Jeremy.jpg" class="team-member-image" alt="" /></span></center>
 										<h3>Jeremy Griess - <a href="https://www.linkedin.com/in/jeremy-griess-0229a9224/" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
 										<p>Jeremy Griess is a Electrical Engineering student graduating in May of 2024. He will be working on the battery 
 											management system, wiring harnesses, creating circuit diagram documentation, and connecting a plug to our power
@@ -147,27 +178,27 @@
 										</p>
 									</li>
 									<li>
-										<center><span class="image"><img src="./images/Morgan_2.jpg" style="max-width: 80%;" alt="" /></span></center>
+										<center><span class="image"><img src="./images/Morgan_2.jpg" class="team-member-image" alt="" /></span></center>
 										<h3>Morgan Heacox - <a href="https://www.linkedin.com/in/morgan-heacox-307566243/" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
 										<p>Morgan Heacox is a Electrical Engineering major graduating in May 2024. She will be working on improving the 
 									 efficiency of the battery charging, wiring harnesses, and connecting the backup camera. Her goal is to learn more about the integration of electrical motors
 										</p>
 									</li>
 									<li>
-										<center><span class="image"><img src="./images/Cali.jpg" style="max-width: 80%;" alt="" /></span></center>
+										<center><span class="image"><img src="./images/Cali.jpg" class="team-member-image" alt="" /></span></center>
 										<h3>Cali Clark - <a href="https://www.linkedin.com/in/cali-clark-00b365227/" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
 										<p>Cali Clark is a Mechanical Engineering student graduating in May of 2024. 
 										</p>
 									</li>
 									<li>
-										<center><span class="image"><img src="./images/Ryan.jpg" style="max-width: 80%;" alt="" /></span></center>
+										<center><span class="image"><img src="./images/Ryan.jpg" class="team-member-image" alt="" /></span></center>
 										<h3>Ryan Calzone - <a href="https://www.linkedin.com/in/ryan-calzone/" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
 										<p>Ryan Calzone is a Mechanical Engineering student graduating in May 2024.
 									
 										</p>
 									</li>
 									<li>
-										<center><span class="image"><img src="./images/Hyojin_Seo.jpg" style="max-width: 80%;" alt="" /></span></center>
+										<center><span class="image"><img src="./images/Hyojin_Seo.jpg" class="team-member-image" alt="" /></span></center>
 										<h3>Hyojin Seo - <a href="https://www.linkedin.com/in/hyojin-seo-815068200/" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
 										<p>Hyojin Seo is a student majoring in Computer Engineering and a minor in Computer Science. She is expected to 
 											graduate in May 2023.  Her interest is programming and simulation of electrical machines and application of 
@@ -178,8 +209,8 @@
 									<li>
 									
 									<!-- The Next two <li></li> sections are here so Olivera and Doug are on their own line.-->
-									<li><!-- Intentionally left blank--></li>
-									<li><!-- Intentionally left blank--></li>
+									
+									
 									<li>
 										<!-- <span class="icon major style3 fa-copy"></span> -->
 										<h3>Olivera Notaros</h3>
@@ -193,8 +224,298 @@
 								</ul>
 							</section>
 
-						<!-- Project Timeline Section -->
+							
+							
 							<section id="project-timeline" class="main special">
+								<header class="major">
+									<h2>Project Timeline</h2>
+								</header>
+						
+								<!-- Controls for navigating between timelines -->
+								<div class="timeline-controls">
+									<button onclick="showTimeline(1)">Electrical Engineer</button>
+									<button onclick="showTimeline(2)">Computer Enginner</button>
+									<button onclick="showTimeline(3)">Mechanical Engineer</button>
+								</div>
+						
+								<!-- Timeline for Semester 1 (same as you provided) -->
+								<div class="timeline semester-1">
+									<h3>Electrical Engineer Timeline:</h3> 
+								<div class="table-wrapper">
+									<table class="alt">
+										<thead>
+											<tr>
+												<th>Date Range</th>
+												<th>Objectives</th>
+												<th>Completion Status</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>8/21 - 9/8</td>
+												<td>
+													<ul>
+														<li>Ideas for EE</li>
+														<li>Team Budget</li>
+														<li>Begin project plan</li>
+														<li>Group photo</li>
+													</ul>
+												</td>
+												<td>✔</td>
+											</tr>
+											<tr>
+												<td>9/8 - 10/6</td>
+												<td>
+													<ul>
+														<li>Parts Research</li>
+														<li>Parts Ordering</li>
+														<li>ESC Testing</li>
+														<li>Motor Testing</li>
+														<li>Vesc Research</li>
+														<li>BMS Research</li>
+														<li>Regenerative Braking Research</li>
+													</ul>
+												</td>
+												<td>In Progress</td>
+											</tr>
+											<tr>
+												<td>10/6 -10/20 </td>
+												<td>
+													<ul>
+														<li>BMS integration</li>
+														<li>Finalize budget</li>
+														<li>Seek more funding</li>
+														<li>Order parts</li>
+														<li>Test Motors and Brakes</li>
+														<li>Model Wheels</li>
+													</ul>
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>10/20 - 11/6</td>
+												<td>
+													<ul>
+														<li>Replace ESC with Watercooled versions</li>
+														<li>Brake and Headlights</li>
+														<li>ESC and Motor Testing with new setup</li>
+														<li>Mid-semester notebook check</li>
+													</ul>
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>11/6 - 12/15</td>
+												<td>
+													<ul>
+														<li>Cosmetic Lighting</li>
+														<li>Final Clean up</li>
+													</ul>
+												</td>
+												<td>-</td>
+											</tr>
+											<tr>
+												
+										</tbody>
+										<tfoot>
+											<tr>
+												<td colspan="2"></td>
+											</tr>
+										</tfoot>
+									</table>
+								</div>
+									
+								</div>
+						
+								<!-- Timeline for Semester 2 (you'll need to fill this in) -->
+								<div class="timeline semester-2" style="display:none;">
+									<h3>Computer Engineer Timeline:</h3> 
+								<div class="table-wrapper">
+									<table class="alt">
+										<thead>
+											<tr>
+												<th>Date Range</th>
+												<th>Objectives</th>
+												<th>Completion Status</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>8/26 - 9/20</td>
+												<td>
+													<ul>
+														<li>Brainstorming ideas</li>
+														<li>Get Kart running again</li>
+													</ul>
+												</td>
+												<td>✔</td>
+											</tr>
+											<tr>
+												<td>9/20 - 10/13</td>
+												<td>
+													<ul>
+														<li>Begin website</li>
+														<li>Order necessary parts</li>
+														<li>Connect raspberry pi to rear camera</li>
+														<li>Finalize team setups</li>
+														<li>Impliment button into UI</li>
+													</ul>
+												</td>
+												<td>In Progress</td>
+											</tr>
+											<tr>
+												<td>10/13 - 10/27</td>
+												<td>
+													<ul>
+														<li>Add APD functionality to Rear Cam</li>
+														<li>Impliment automatic switching between front and rear with can message</li>
+														<li>Add LiDAR to raspberry pi</li>
+														<li>Learn how to use Qt and set up UI</li>
+													</ul>
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>10/27 - 11/10</td>
+												<td>
+													<ul>
+														<li>Ensure cross functionality with APD and LiDAR</li>
+														<li>Set up off-kart programming environment (with touchscreen and RPi4)</li>
+														<li>Work on Qt UI to display flash warning </li>
+														<li>Settings for Analog vs Digital speedometer</li>
+													</ul>
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>11/10 - 11/17</td>
+												<td>
+													<ul>
+														<li>Work on adding Piezo Buzzer or another output warning</li>
+														<li>Warnings for APD system</li>
+													</ul>
+												</td>
+												<td>-</td>
+											</tr>
+											<tr>
+												<td>12/8 - 1/12</td>
+												<td>
+													<ul>
+														<li>Whatever other CAN data we can send over and back to VESC</li>
+														<li>Add external features</li>
+													
+													</ul>
+												</td>
+												<td>-</td>
+											</tr>
+											<tr>
+												
+										</tbody>
+										<tfoot>
+											<tr>
+												<td colspan="2"></td>
+											</tr>
+										</tfoot>
+									</table>
+								</div>
+									
+								</div>
+						
+								<!-- Timeline for Semester 3 (you'll need to fill this in) -->
+								<div class="timeline semester-3" style="display:none;">
+									<h3>Mechanical Engineer Timeline:</h3> 
+								<div class="table-wrapper">
+									<table class="alt">
+										<thead>
+											<tr>
+												<th>Date Range</th>
+												<th>Objectives</th>
+												<th>Completion Status</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>8/30 - 9/7</td>
+												<td>
+													<ul>
+														<li>Determine what needed to be done with kart</li>
+														<li>Research how to decrease steering radius</li>
+													</ul>
+												</td>
+												<td>✔</td>
+											</tr>
+											<tr>
+												<td>9/7 - 9/22</td>
+												<td>
+													<ul>
+														<li>Figure out how kart was built in order to take it apart for modification</li>
+														<li>Gantt Chart</li>
+														<li>QFD</li>
+														<li>FMEA/Risk and Reliability</li>
+													</ul>
+												</td>
+												<td>✔</td>
+											</tr>
+											<tr>
+												<td>9/22 - 10/10</td>
+												<td>
+													<ul>
+														<li>Trial run kart to take general initial measurements </li>
+														<li>Decrease DOF of steering wheel</li>
+														<li>Reduce steering wheel size</li>
+														<li>Drill holes in existing parts to decrease steering radius</li>
+														
+													</ul>
+												</td>
+												<td>In Progress</td>
+											</tr>
+											<tr>
+												<td>10/10 - 11/7</td>
+												<td>
+													<ul>
+														<li>Take apart axels</li>
+														<li>Unweld brake discs and position them correctly</li>
+														
+													</ul>
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>11/7 - 12/8</td>
+												<td>
+													<ul>
+														<li>Reassemble axels</li>
+														<li>Start researching and initial concepts for shell</li>
+													</ul>
+												</td>
+												<td>-</td>
+											
+										</tbody>
+										<tfoot>
+											<tr>
+												<td colspan="2"></td>
+											</tr>
+										</tfoot>
+									</table>
+								</div>
+
+								</div>
+							</section>
+						
+							<!-- Embedded JavaScript -->
+							<script>
+								function showTimeline(semester) {
+									// Hide all timelines
+									document.querySelectorAll('.timeline').forEach((timeline) => {
+										timeline.style.display = 'none';
+									});
+						
+									// Show the chosen timeline
+									document.querySelector('.semester-' + semester).style.display = 'block';
+								}
+							</script>
+						<!-- Project Timeline Section -->
+							<!-- <section id="project-timeline" class="main special">
 								<header class="major">
 									<h2>Project Timeline</h2>
 								</header>
@@ -387,7 +708,7 @@
 										</tfoot>
 									</table>
 								</div>
-							</section>
+							</section> -->
 
 						<!-- Media Section -->
 							<section id="pictures" class="main special">
